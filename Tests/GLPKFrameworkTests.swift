@@ -1,12 +1,17 @@
 //
-//  GLPKFramework_MacOSTests.swift
-//  GLPKFramework_MacOSTests
+//  GLPKFrameworkTests.swift
+//  GLPKFramework_MacOSTests and GLPKFramework_iOSTests
 //
 //  Created by Alexandre Jouandin on 24/08/2017.
 //
 
 import XCTest
+
+#if os(iOS)
+@testable import GLPKFramework_iOS
+#else
 @testable import GLPKFramework_MacOS
+#endif
 
 class GLPKFramework_MacOSTests: XCTestCase {
     

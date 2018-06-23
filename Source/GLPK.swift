@@ -144,7 +144,7 @@ public class SwiftGLPK {
      - parameter j: Index of the column to rename.
      */
     public func set(name: String?, forColumn j: Int32) {
-        glp_set_row_name(problemPointer, j, name ?? "")
+        glp_set_col_name(problemPointer, j, name ?? "")
     }
     
     /**
