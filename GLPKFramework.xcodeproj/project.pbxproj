@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43D0206420DE2305000C1F7B /* GLPKFrameworkTestsObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D0206320DE2305000C1F7B /* GLPKFrameworkTestsObjC.m */; };
+		43D0206520DE2305000C1F7B /* GLPKFrameworkTestsObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D0206320DE2305000C1F7B /* GLPKFrameworkTestsObjC.m */; };
+		43D0206820DE233E000C1F7B /* ObjCGLPK.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D0206620DE233D000C1F7B /* ObjCGLPK.m */; };
+		43D0206920DE233E000C1F7B /* ObjCGLPK.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D0206620DE233D000C1F7B /* ObjCGLPK.m */; };
+		43D0206A20DE233E000C1F7B /* ObjCGLPK.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D0206720DE233E000C1F7B /* ObjCGLPK.h */; };
+		43D0206B20DE233E000C1F7B /* ObjCGLPK.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D0206720DE233E000C1F7B /* ObjCGLPK.h */; };
 		AC427BC41F5089120043E1B6 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC427BC31F5089120043E1B6 /* Direction.swift */; };
 		AC427BC51F5089120043E1B6 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC427BC31F5089120043E1B6 /* Direction.swift */; };
 		ACB0C2941F4F93BE001F10AE /* GLPKFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = ACD92A6B1F4F2086004D2CC7 /* GLPKFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -756,6 +762,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		43D0206320DE2305000C1F7B /* GLPKFrameworkTestsObjC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLPKFrameworkTestsObjC.m; sourceTree = "<group>"; };
+		43D0206620DE233D000C1F7B /* ObjCGLPK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjCGLPK.m; sourceTree = "<group>"; };
+		43D0206720DE233E000C1F7B /* ObjCGLPK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjCGLPK.h; sourceTree = "<group>"; };
+		43D0206D20DE5E27000C1F7B /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		43D0206E20DE5E28000C1F7B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AC427B821F503D340043E1B6 /* gmpl_es.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = gmpl_es.pdf; sourceTree = "<group>"; };
 		AC427B891F503D340043E1B6 /* cnfsat.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = cnfsat.pdf; sourceTree = "<group>"; };
 		AC427B8A1F503D340043E1B6 /* gmpl_pt-BR.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "gmpl_pt-BR.pdf"; sourceTree = "<group>"; };
@@ -1290,6 +1301,8 @@
 		ACD9283E1F4F1EB2004D2CC7 = {
 			isa = PBXGroup;
 			children = (
+				43D0206D20DE5E27000C1F7B /* LICENSE.md */,
+				43D0206E20DE5E28000C1F7B /* README.md */,
 				ACD92A741F4F275C004D2CC7 /* Source */,
 				ACD92D021F4F37EF004D2CC7 /* Tests */,
 				ACD93A8F1F4F7C70004D2CC7 /* GLPK C Library */,
@@ -1316,6 +1329,8 @@
 				ACB0C2961F4F9BAB001F10AE /* BoundType.swift */,
 				AC427BC31F5089120043E1B6 /* Direction.swift */,
 				ACD92A6B1F4F2086004D2CC7 /* GLPKFramework.h */,
+				43D0206720DE233E000C1F7B /* ObjCGLPK.h */,
+				43D0206620DE233D000C1F7B /* ObjCGLPK.m */,
 				ACD92A6C1F4F2086004D2CC7 /* Info.plist */,
 			);
 			path = Source;
@@ -1334,6 +1349,7 @@
 			isa = PBXGroup;
 			children = (
 				ACD92D031F4F37EF004D2CC7 /* GLPKFrameworkTests.swift */,
+				43D0206320DE2305000C1F7B /* GLPKFrameworkTestsObjC.m */,
 				ACD92D051F4F37EF004D2CC7 /* Info.plist */,
 			);
 			path = Tests;
@@ -1991,6 +2007,7 @@
 				ACD937C81F4F3A4B004D2CC7 /* rng.h in Headers */,
 				ACD9383C1F4F3A4B004D2CC7 /* amd.h in Headers */,
 				ACD938131F4F3A4B004D2CC7 /* gzguts.h in Headers */,
+				43D0206A20DE233E000C1F7B /* ObjCGLPK.h in Headers */,
 				ACD938121F4F3A4B004D2CC7 /* deflate.h in Headers */,
 				ACD937C21F4F3A4B004D2CC7 /* keller.h in Headers */,
 				ACD9383F1F4F3A4B004D2CC7 /* spxprob.h in Headers */,
@@ -2075,6 +2092,7 @@
 				ACD939BC1F4F3AD7004D2CC7 /* rng.h in Headers */,
 				ACD939BD1F4F3AD7004D2CC7 /* amd.h in Headers */,
 				ACD939BE1F4F3AD7004D2CC7 /* gzguts.h in Headers */,
+				43D0206B20DE233E000C1F7B /* ObjCGLPK.h in Headers */,
 				ACD939BF1F4F3AD7004D2CC7 /* deflate.h in Headers */,
 				ACD939C01F4F3AD7004D2CC7 /* keller.h in Headers */,
 				ACD939C11F4F3AD7004D2CC7 /* spxprob.h in Headers */,
@@ -2184,6 +2202,7 @@
 					};
 					ACD92D001F4F37EF004D2CC7 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
 					};
 					ACD92D101F4F388B004D2CC7 = {
@@ -2192,6 +2211,7 @@
 					};
 					ACD92D181F4F388B004D2CC7 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -2617,6 +2637,7 @@
 				ACD938001F4F3A4B004D2CC7 /* glphbm.c in Sources */,
 				ACD938371F4F3A4B004D2CC7 /* amd_valid.c in Sources */,
 				ACD9387C1F4F3A4C004D2CC7 /* mcfokalg.c in Sources */,
+				43D0206820DE233E000C1F7B /* ObjCGLPK.m in Sources */,
 				ACD937D01F4F3A4B004D2CC7 /* triang.c in Sources */,
 				ACD9387B1F4F3A4C004D2CC7 /* prob2.c in Sources */,
 				ACD938591F4F3A4C004D2CC7 /* mpl5.c in Sources */,
@@ -2638,6 +2659,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43D0206420DE2305000C1F7B /* GLPKFrameworkTestsObjC.m in Sources */,
 				ACD92D041F4F37EF004D2CC7 /* GLPKFrameworkTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2696,6 +2718,7 @@
 				ACD939FC1F4F3B75004D2CC7 /* mygmp.c in Sources */,
 				ACD939FD1F4F3B75004D2CC7 /* glpios03.c in Sources */,
 				ACD939FE1F4F3B75004D2CC7 /* spydual.c in Sources */,
+				43D0206920DE233E000C1F7B /* ObjCGLPK.m in Sources */,
 				ACD939FF1F4F3B75004D2CC7 /* qmd.c in Sources */,
 				ACD93A001F4F3B75004D2CC7 /* deflate.c in Sources */,
 				ACD93A011F4F3B75004D2CC7 /* asnokalg.c in Sources */,
@@ -2845,6 +2868,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43D0206520DE2305000C1F7B /* GLPKFrameworkTestsObjC.m in Sources */,
 				ACB0C2951F4F9B31001F10AE /* GLPKFrameworkTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,8 +1,8 @@
-# GLPK Framework for Swift
+# GLPK Framework Facade for Swift and Objective C
 
-This project is a wrapper Swift Framework around [GLPK](https://www.gnu.org/software/glpk/) 4.63.
+This project is a wrapper framework around [GLPK](https://www.gnu.org/software/glpk/) 4.63 so it can be used easily from Swift or Objective C.
 
-The project is intended to be used in a Swift project for macOS or iOS.
+The project is intended to be used in a Swift or Objective C projects for macOS or iOS.
 
 ___
 
